@@ -12,7 +12,7 @@ const ingredients = [
 ];
 
 const ingredientsRef = document.querySelector('#ingredients');
-console.log(ingredientsRef);
+// console.log(ingredientsRef);
 
 const ingredientsItems = ingredients.map(item => {
   const createList = document.createElement('li');

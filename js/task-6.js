@@ -4,11 +4,6 @@
 // Если введено подходящее количество, то border инпута становится зеленым,
 // если неправильное - красным.
 // Для добавления стилей, используй CSS-классы valid и invalid
-//   input
-//   type="text"
-//   id="validation-input"
-//   data-length="6"
-//   placeholder="Введи 6 символов"
 
 const inputRef = document.querySelector('#validation-input');
 const inputLength = inputRef.getAttribute('data-length');
